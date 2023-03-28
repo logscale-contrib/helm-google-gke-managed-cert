@@ -1,0 +1,1 @@
+# helm-google-gke-managed-cert
