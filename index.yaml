@@ -2,6 +2,19 @@ apiVersion: v1
 entries:
   google-gke-managed-cert:
   - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2023-03-28T22:24:28.503461864Z"
+    description: Chart for creating gcp managed certs
+    digest: 9afd001c3bd00e8e5ab96153f580244b4cb55eb4978f2ffd3b78ccfd6db73fb4
+    keywords:
+    - google
+    - cloud
+    name: google-gke-managed-cert
+    type: application
+    urls:
+    - https://github.com/logscale-contrib/helm-google-gke-managed-cert/releases/download/v1.0.2/google-gke-managed-cert-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
     appVersion: 1.0.1
     created: "2023-03-28T21:16:04.60284746Z"
     description: Chart for creating gcp managed certs
@@ -14,4 +27,4 @@ entries:
     urls:
     - https://github.com/logscale-contrib/helm-google-gke-managed-cert/releases/download/v1.0.1/google-gke-managed-cert-1.0.1.tgz
     version: 1.0.1
-generated: "2023-03-28T21:16:04.602352366Z"
+generated: "2023-03-28T22:24:28.50307716Z"
