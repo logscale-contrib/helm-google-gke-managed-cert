@@ -2,8 +2,8 @@ apiVersion: v2
 description: Chart for creating gcp managed certs
 name: google-gke-managed-cert
 type: application
-version: 1.0.2
-appVersion: "1.0.2"
+version: 1.0.3
+appVersion: "1.0.3"
 keywords:
   - google
   - cloud
