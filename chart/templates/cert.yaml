@@ -3,6 +3,7 @@ apiVersion: networking.gke.io/v1
 kind: ManagedCertificate
 metadata:
   name: {{ template "gke-managed-cert.fullname" . }}
+  annotations:
+    "helm.sh/resource-policy": keep
 spec:
-  domains:
-    - {{ .Values.domainName }}
+  domains: {{ .Values.domains }}
